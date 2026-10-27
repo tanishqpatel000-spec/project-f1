@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='5a6bb4adca7f19274808ecfc8b584cd7e06eafe0b61d832ac8b8bab390102a26' _.fcp.WorkbookFingerprinting.true...creator-author-id='5a6bb4adca7f19274808ecfc8b584cd7e06eafe0b61d832ac8b8bab390102a26' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='703b11db3aba4f05285793a7607044c7ef7b80c27b7f497a45c8aac9bb33902c' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='703b11db3aba4f05285793a7607044c7ef7b80c27b7f497a45c8aac9bb33902c' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='F1 Racing Project Dataset' inline='true' name='federated.1bfmzwn1ow2f5n1bkioyn1lzc11b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='F1 Racing Project Dataset' name='excel-direct.1exqctv0276g6p12pki1q052g6yv'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='E:/New folder/F1 Racing Project Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+      </connection>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph />
+    </datasource>
+    <datasource caption='F1 Racing Project Dataset (2)' inline='true' name='federated.0d1sxaq10dqpv11aylbvj1iur12j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='F1 Racing Project Dataset' name='excel-direct.0d846s60jlw5e91ba0pmr02ytftv'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='E:/New folder/F1 Racing Project Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+      </connection>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph />
+    </datasource>
+    <datasource caption='championship_standings (F1 Racing Project Dataset)' inline='true' name='federated.181uc7n1gebggm16k6mch0gvomxz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='F1 Racing Project Dataset' name='excel-direct.009rkv80cwwxeh18hzzyo1g32wua'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='E:/New folder/F1 Racing Project Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.009rkv80cwwxeh18hzzyo1g32wua' name='championship_standings' table='[championship_standings$]' type='table'>
+          <columns gridOrigin='A1:J312:no:A1:J312:0' header='yes' outcome='6'>
+            <column datatype='integer' name='season' ordinal='0' />
+            <column datatype='integer' name='driver_position' ordinal='1' />
+            <column datatype='string' name='driver' ordinal='2' />
+            <column datatype='string' name='team' ordinal='3' />
+            <column datatype='integer' name='points' ordinal='4' />
+            <column datatype='integer' name='wins' ordinal='5' />
+            <column datatype='integer' name='podiums' ordinal='6' />
+            <column datatype='integer' name='pole_positions' ordinal='7' />
+            <column datatype='integer' name='dnfs' ordinal='8' />
+            <column datatype='integer' name='champion' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J312:no:A1:J312:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>driver_position</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[driver_position]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>driver_position</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>driver</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[driver]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>driver</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[team]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>team</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>points</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[points]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>points</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wins]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>wins</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>podiums</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[podiums]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>podiums</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pole_positions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pole_positions]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>pole_positions</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dnfs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dnfs]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>dnfs</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>champion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[champion]</local-name>
+            <parent-name>[championship_standings]</parent-name>
+            <remote-alias>champion</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[championship!standings_8947C448E9604C93B163E85C1E5C0C52]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='championship_standings' datatype='table' name='[__tableau_internal_object_id__].[championship!standings_8947C448E9604C93B163E85C1E5C0C52]' role='measure' type='quantitative' />
+      <column caption='Champion' datatype='integer' name='[champion]' role='measure' type='quantitative' />
+      <column caption='Dnfs' datatype='integer' name='[dnfs]' role='measure' type='quantitative' />
+      <column caption='Driver' datatype='string' name='[driver]' role='dimension' type='nominal' />
+      <column caption='Driver Position' datatype='integer' name='[driver_position]' role='measure' type='quantitative' />
+      <column caption='Podiums' datatype='integer' name='[podiums]' role='measure' type='quantitative' />
+      <column caption='Points' datatype='integer' name='[points]' role='measure' type='quantitative' />
+      <column caption='Pole Positions' datatype='integer' name='[pole_positions]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='integer' name='[season]' role='measure' type='quantitative' />
+      <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+      <column caption='Wins' datatype='integer' name='[wins]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='championship_standings' id='championship!standings_8947C448E9604C93B163E85C1E5C0C52'>
+            <properties context=''>
+              <relation connection='excel-direct.009rkv80cwwxeh18hzzyo1g32wua' name='championship_standings' table='[championship_standings$]' type='table'>
+                <columns gridOrigin='A1:J312:no:A1:J312:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='season' ordinal='0' />
+                  <column datatype='integer' name='driver_position' ordinal='1' />
+                  <column datatype='string' name='driver' ordinal='2' />
+                  <column datatype='string' name='team' ordinal='3' />
+                  <column datatype='integer' name='points' ordinal='4' />
+                  <column datatype='integer' name='wins' ordinal='5' />
+                  <column datatype='integer' name='podiums' ordinal='6' />
+                  <column datatype='integer' name='pole_positions' ordinal='7' />
+                  <column datatype='integer' name='dnfs' ordinal='8' />
+                  <column datatype='integer' name='champion' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width-header' value='52' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B4FA3612-3ECA-4586-877C-CD9DDB444EE1}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='89'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E4DEDE94-19F1-45A3-8520-76401F086624}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
